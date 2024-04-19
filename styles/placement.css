@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    border: 1px solid var(--primary-border-color);
+    background-color: var(--primary-background-color);
+    height: 80px;
+}
+
+.header__nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    gap: 10px;
+}
+
+.header__nav-list li {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1599999964237213px;
+    color: rgba(37, 37, 37, 1);
+}
+
+main {
+    padding-top: 60px;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.main__content-title {
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: -0.05em;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.main__content-description {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color:rgba(42, 43, 47, 0.8);
+}
+
+
+.main__solution {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.main__solution-title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+
+.main__solution-description {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color:  rgba(42, 43, 47, 0.9);
+}
+
+.benifit {
+    background-color: rgba(244, 246, 253, 1);
+}
+
+.benefit__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}

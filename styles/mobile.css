@@ -1,0 +1,31 @@
+@media screen and (max-width: 850px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__buttons {
+        margin-right: 20px;
+    }
+
+    .logo {
+        margin-left: 60px;
+    }
+
+    main {
+        padding: 60px 10px;
+    }
+}

@@ -1,0 +1,81 @@
+.header__buttons {
+    display: flex;
+}
+
+.primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    height: 48px;
+    color: var(--button-primary-color);
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.small-button {
+    width: 185px;
+}
+
+.secondary {
+    background-color: var(--button-primary-color);
+    color: var(--button-secondary-color);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    border-radius: 12px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.medium-button{
+    width: 247px;
+    height: 50px;
+}
+
+.tertiary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--button-tertiary-color);
+    background-color: transparent;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    text-align: left;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+}
+
+.tertiary img {
+    padding-right: 10px;
+}
+
+.big-button{
+  width: 366px;
+  margin-top: 20px;
+}
+
+.big-text-button{
+    font-size: 20px;
+}
+
+.small-text-button{
+    font-size: 16px;
+}

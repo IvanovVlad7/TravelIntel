@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #0146FE;
+
+    --h-primary-color: #000000;
+    --h-secondary-color: #2A2B2FE5;
+
+    --button-primary-color: #FFFFFF;
+    --button-secondary-color: #000000;
+    --button-tertiary-color: #666666;
+
+    --link-nav-color: #252525;
+
+    --primary-background-color: #FFFFFF;
+
+    --primary-border-color: #E6E7EC;
+}
