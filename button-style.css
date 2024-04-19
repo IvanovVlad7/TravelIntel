@@ -16,10 +16,12 @@
     letter-spacing: -0.01em;
     text-align: left;
     border: none;
+    font-size: 18px;
+
 }
 
 .small-button {
-    width: 131px;
+    width: 185px;
 }
 
 .secondary {
@@ -34,10 +36,12 @@
     border-radius: 12px;
     height: 48px;
     border: none;
+    
 }
 
 .medium-button{
     width: 247px;
+    height: 50px;
 }
 
 .tertiary {
