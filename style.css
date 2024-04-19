@@ -27,7 +27,6 @@ header{
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0.1599999964237213px;
-    text-align: left;
     color: rgba(37, 37, 37, 1);
 }
 
@@ -79,7 +78,7 @@ header{
 }
 
 
-.main__solution-description{
+.main__solution-description {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -90,11 +89,11 @@ header{
 }
 
 
-.product-for__info{
-  
+.benifit {
+    background-color: rgba(244, 246, 253, 1);
 }
 
-.product-for__title {
+.benefit__title {
     font-family: Inter;
     font-size: 60px;
     font-weight: 900;
@@ -102,22 +101,4 @@ header{
     letter-spacing: -0.05em;
     text-align: center;
     color: rgba(0, 0, 0, 1);
-}
-
-.product-for__description {
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25.2px;
-    letter-spacing: -0.01em;
-    text-align: center;
-    color: rgba(42, 43, 47, 0.8);
-    
-}
-
-
-.product-for__button {
-    display: flex;
-    justify-content: center;
-    align-items: center ;
 }
