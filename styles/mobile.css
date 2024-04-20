@@ -84,13 +84,21 @@
     .product-for__content.mobile {
         display: flex;
     }
+
+    .social-links.mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 0;
+    } 
 }
 
 @media (max-width: 600px) {
     .benefit__card {
         width: calc(50% - 40px);
     }
-  }
+}
 
 @media (max-width: 560px) {
     .product-for__text-content {
@@ -110,5 +118,20 @@
 
     .benefit__card {
         width: calc(100% - 40px);
+    }
+}
+
+@media (max-width:840px) {
+    .animated-div {
+        width: 55%;
+    }
+    .animated-div1 {
+        width: 45%;
+    }
+}
+
+@media (max-width:768px) {
+    .product-for__card {
+        max-width: 100%;
     }
 }

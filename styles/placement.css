@@ -176,7 +176,6 @@ footer section {
     list-style-type: none;
     padding: 0;
 }
-
   
 .social-media-icons {
     display: flex;
@@ -190,11 +189,6 @@ footer section {
     gap: 8px;
 }
 
-.social-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px 0;
+.social-links.mobile {
+    display: none;
 } 
-  
