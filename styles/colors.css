@@ -2,7 +2,7 @@
     --primary-color: #0146FE;
 
     --h-primary-color: #000000;
-    --h-secondary-color: #2A2B2FE5;
+    --h-secondary-color: rgba(42, 43, 47, 0.9);
 
     --button-primary-color: #FFFFFF;
     --button-secondary-color: #000000;
@@ -11,6 +11,9 @@
     --link-nav-color: #252525;
 
     --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F4F6FD;
 
     --primary-border-color: #E6E7EC;
+
+    --p-secondary-color: rgba(122, 134, 156, 1);
 }

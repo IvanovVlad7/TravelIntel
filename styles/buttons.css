@@ -1,5 +1,7 @@
 .header__buttons {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .primary {
@@ -8,42 +10,39 @@
     justify-content: center;
     background-color: var(--primary-color);
     border-radius: 12px;
-    height: 48px;
     color: var(--button-primary-color);
     font-family: Inter;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.01em;
-    text-align: left;
     border: none;
     cursor: pointer;
     font-size: 18px;
-
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    height: fit-content;
+    min-height: 48px;
 }
 
 .small-button {
-    width: 185px;
+    padding: 10px 20px;
 }
 
 .secondary {
-    background-color: var(--button-primary-color);
+    background-color: var(--secondary-background-color);
     color: var(--button-secondary-color);
     font-family: Inter;
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
     letter-spacing: -0.03em;
-    text-align: center;
     border-radius: 12px;
-    height: 48px;
     border: none;
     cursor: pointer;
-    
-}
-
-.medium-button{
-    width: 247px;
-    height: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    height: fit-content;
+    min-height: 48px;
 }
 
 .tertiary {
@@ -57,19 +56,18 @@
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0.16px;
-    text-align: left;
-    height: 48px;
     border: none;
     cursor: pointer;
+    text-align: center;
+    height: fit-content;
 }
 
 .tertiary img {
     padding-right: 10px;
 }
 
-.big-button{
-  width: 366px;
-  margin-top: 20px;
+.big-button {
+    padding: 20px 120px;
 }
 
 .big-text-button{

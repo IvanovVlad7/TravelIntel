@@ -48,56 +48,53 @@
         </div>
       </nav>
 
-      <div class="header__buttons desktop">
+      <section class="header__buttons desktop">
         <button class="tertiary small-button small-text-button">
           <img src="./images/user.png " alt="user" />
           <p>Account</p>
         </button>
         <button class="primary small-button">Contact us</button>
-      </div>
+      </section>
     </header>
     <main>
-      <div class="main__content">
-        <h1 class="main__content-title">Travel and Hospitality</h1>
-        <p class="main__content-description">
+      <section class="main__content page-indent">
+        <h1>Travel and Hospitality</h1>
+        <p>
           Offline & Online Translation: image translation, translation history,
-          file translation,<br />
-          bookmarks, dictionary meaning.
+          file translation, bookmarks, dictionary meaning.
         </p>
         <button class="primary big-button big-text-button">
           Request a free trial
         </button>
-      </div>
-      <div class="main__solution">
-        <h1 class="main__solution-title">Our language solution</h1>
-        <p class="main__solution-description">
+      </section>
+      <section class="main__solution page-indent">
+        <h2>Our language solution</h2>
+        <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem<br />
-          Ipsum has been the industry's standard dummy text ever since
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since
         </p>
-      </div>
-      <div class="slider-container mobile">
+      </section>
+      <section class="slider-container mobile page-indent">
         <div class="slider">
           <div class="slider-inner">
             <div class="main__service">
               <div class="main__service-item">
                 <div class="main__service-item-content">
-                  <h2 class="main__service-item-title">Translation</h2>
-                  <p class="main__service-item-description">
-                    Unlimited and secure translation for fixed<br />
-                    price. Translate billions of characters per<br />
-                    day
+                  <h2>Translation</h2>
+                  <p>
+                    Unlimited and secure translation for fixed price. Translate
+                    billions of characters per day
                   </p>
                   <img src="./images/translation.png" alt="translation" />
                 </div>
               </div>
               <div class="main__service-item">
                 <div class="main__service-item-content">
-                  <h2 class="main__service-item-title">Social listening</h2>
-                  <p class="main__service-item-description">
-                    Unlimited and secure translation for fixed<br />
-                    price. Translate billions of characters per<br />
-                    day
+                  <h2>Social listening</h2>
+                  <p>
+                    Unlimited and secure translation for fixed price. Translate
+                    billions of characters per day
                   </p>
                   <img
                     src="./images/social-listening.png"
@@ -107,11 +104,10 @@
               </div>
               <div class="main__service-item">
                 <div class="main__service-item-content">
-                  <h2 class="main__service-item-title">Content generation</h2>
-                  <p class="main__service-item-description">
-                    Unlimited and secure translation for fixed<br />
-                    price. Translate billions of characters per<br />
-                    day
+                  <h2>Content generation</h2>
+                  <p>
+                    Unlimited and secure translation for fixed price. Translate
+                    billions of characters per day
                   </p>
                   <img
                     src="./images/content-generation.png"
@@ -124,37 +120,34 @@
         </div>
         <button class="prev" onclick="moveSlider(-1)">&#10094;</button>
         <button class="next" onclick="moveSlider(1)">&#10095;</button>
-      </div>
-      <div class="main__service desktop">
-        <div class="main__service-item">
+      </section>
+      <section class="main__service desktop">
+        <div class="main__service-item desktop">
           <div class="main__service-item-content">
             <h2 class="main__service-item-title">Translation</h2>
             <p class="main__service-item-description">
-              Unlimited and secure translation for fixed<br />
-              price. Translate billions of characters per<br />
-              day
+              Unlimited and secure translation for fixed price. Translate
+              billions of characters per day
             </p>
             <img src="./images/translation.png" alt="translation" />
           </div>
         </div>
-        <div class="main__service-item">
+        <div class="main__service-item desktop">
           <div class="main__service-item-content">
             <h2 class="main__service-item-title">Social listening</h2>
             <p class="main__service-item-description">
-              Unlimited and secure translation for fixed<br />
-              price. Translate billions of characters per<br />
-              day
+              Unlimited and secure translation for fixed price. Translate
+              billions of characters per day
             </p>
             <img src="./images/social-listening.png" alt="social-listening" />
           </div>
         </div>
-        <div class="main__service-item">
+        <div class="main__service-item desktop">
           <div class="main__service-item-content">
             <h2 class="main__service-item-title">Content generation</h2>
             <p class="main__service-item-description">
-              Unlimited and secure translation for fixed<br />
-              price. Translate billions of characters per<br />
-              day
+              Unlimited and secure translation for fixed price. Translate
+              billions of characters per day
             </p>
             <img
               src="./images/content-generation.png"
@@ -162,203 +155,327 @@
             />
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="product-for">
+      <section class="product-for page-indent">
         <div class="product-for__info">
-          <h2 class="product-for__title">Who is this product for?</h2>
-          <p class="product-for__description">
+          <h2>Who is this product for?</h2>
+          <p>
             Lingvanex Bot can simply solve a language barrier problem in your
-            team, community,<br />with your international clients and
-            outsourcing partners. It automatically identifies the languages<br />
-            in a conversation and translates all messages of your team members
-            into a chosen language.
+            team, community,with your international clients and outsourcing
+            partners. It automatically identifies the languages in a
+            conversation and translates all messages of your team members into a
+            chosen language.
           </p>
           <div class="product-for__button">
-            <button class="primary">For travelers</button>
-            <button class="medium-button secondary">
+            <button
+              class="small-button primary"
+              onclick="showContent('travelers')"
+            >
+              For travelers
+            </button>
+            <button
+              class="small-button secondary"
+              onclick="showContent('organization')"
+            >
               For travel organization
             </button>
-            <button class="small-button secondary">For employees</button>
+            <button
+              class="small-button secondary"
+              onclick="showContent('employees')"
+            >
+              For employees
+            </button>
           </div>
         </div>
-        <div class="product-for__content">
-          <div class="product-for__card">
+        <div class="product-for__content mobile">
+          <div class="product-for__card mobile" id="travelers-content-mobile">
+            <img src="./images/travelers.png" alt="travelers" />
             <div class="product-for__text-content">
-              <h3 class="product-for__card-title">For travelers</h3>
-              <ul class="product-for__card-list">
-                <li class="product-for__card-item">
-                  Highlight one word in the text on the page.
+              <h3>For travelers</h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
                 </li>
-                <li class="product-for__card-item">
-                  Word meaning, pronunciation, synonyms,<br />
-                  hypernyms, hyponyms, and more.
-                </li>
-                <li class="product-for__card-item">
-                  Highlight one word in the text on the page.
-                </li>
-                <li class="product-for__card-item">
-                  Word meaning, pronunciation, synonyms,<br />
-                  hypernyms, hyponyms, and more.
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
                 </li>
               </ul>
             </div>
-
-            <img
-              class="product-for__card-image"
-              src="/images/travelers.png"
-              alt="travelers"
-            />
           </div>
         </div>
-        <div class="product-for__button">
+        <div class="product-for__content mobile">
+          <div
+            class="product-for__card employee-info mobile"
+            id="organization-content-mobile"
+          >
+            <img src="./images/organisation.png" alt="travelers" />
+            <div class="product-for__text-content">
+              <h3>For travel organization</h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="product-for__content mobile">
+          <div
+            class="product-for__card employee-info mobile"
+            id="employees-content-mobile"
+          >
+            <img src="./images/employees.png" alt="employees" />
+            <div class="product-for__text-content">
+              <h3>For employees</h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-for__content desktop">
+          <div class="product-for__card" id="travelers-content">
+            <div class="product-for__text-content">
+              <h3>For travelers</h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+              </ul>
+            </div>
+            <div class="product-for__image">
+              <img src="./images/travelers.png" alt="travelers" />
+            </div>
+          </div>
+        </div>
+        <div class="product-for__content desktop">
+          <div
+            class="product-for__card employee-info"
+            id="organization-content"
+          >
+            <div class="product-for__text-content">
+              <h3>For travel organization</h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+              </ul>
+            </div>
+            <div class="product-for__image">
+              <img src="./images/organisation.png" alt="organisation" />
+            </div>
+          </div>
+        </div>
+        <div class="product-for__content desktop">
+          <div class="product-for__card employee-info" id="employees-content">
+            <div class="product-for__text-content">
+              <h3>For employees</h3>
+              <ul>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+                <li>Highlight one word in the text on the page.</li>
+                <li>
+                  Word meaning, pronunciation, synonyms, hypernyms, hyponyms,
+                  and more.
+                </li>
+              </ul>
+            </div>
+            <div class="product-for__image">
+              <img src="/images/employees.png" alt="employees" />
+            </div>
+          </div>
+        </div>
+
+        <div class="product-for__button-submit">
           <button class="primary big-button big-text-button">
             Request a free trial
           </button>
         </div>
-      </div>
-      <div class="benefit">
+      </section>
+      <section class="benefit">
         <div class="benefit__content">
           <h1 class="benefit__title">How can Lingvanex help you?</h1>
           <div class="benefit__cards">
             <div class="benefit__card">
-              <img src="/images/triangle.png" alt="triangle" />
-              <h3 class="benefit__card-title">
-                Book trips & <br />tickets easily
-              </h3>
-              <p class="benefit__card-description">
-                We provide cloud, sdk <br />and on-premise translation <br />
-                solutions. All your private data <br />stays with you.
+              <img src="./images/triangle.png" alt="triangle" />
+              <h3>Book trips & tickets easily</h3>
+              <p>
+                We provide cloud, sdk and on-premise translation solutions. All
+                your private data stays with you.
               </p>
             </div>
             <div class="benefit__card">
-              <img src="/images/triangle.png" alt="triangle" />
-              <h3 class="benefit__card-title">
-                Book trips & <br />tickets easily
-              </h3>
-              <p class="benefit__card-description">
-                We provide cloud, sdk <br />and on-premise translation <br />
-                solutions. All your private data <br />stays with you.
+              <img src="./images/triangle.png" alt="triangle" />
+              <h3>Book trips & tickets easily</h3>
+              <p>
+                We provide cloud, sdk and on-premise translation solutions. All
+                your private data stays with you.
               </p>
             </div>
             <div class="benefit__card">
-              <img src="/images/triangle.png" alt="triangle" />
-              <h3 class="benefit__card-title">
-                Book trips & <br />tickets easily
-              </h3>
-              <p class="benefit__card-description">
-                We provide cloud, sdk <br />and on-premise translation <br />
-                solutions. All your private data <br />stays with you.
+              <img src="./images/triangle.png" alt="triangle" />
+              <h3>Book trips & tickets easily</h3>
+              <p>
+                We provide cloud, sdk and on-premise translation solutions. All
+                your private data stays with you.
               </p>
             </div>
             <div class="benefit__card">
-              <img src="/images/triangle.png" alt="triangle" />
-              <h3 class="benefit__card-title">
-                Book trips & <br />tickets easily
-              </h3>
-              <p class="benefit__card-description">
-                We provide cloud, sdk <br />and on-premise translation <br />
-                solutions. All your private data <br />stays with you.
+              <img src="./images/triangle.png" alt="triangle" />
+              <h3>Book trips & tickets easily</h3>
+              <p>
+                We provide cloud, sdk and on-premise translation solutions. All
+                your private data stays with you.
               </p>
             </div>
             <div class="benefit__card">
-              <img src="/images/triangle.png" alt="triangle" />
-              <h3 class="benefit__card-title">
-                Book trips & <br />
-                tickets easily
-              </h3>
-              <p class="benefit__card-description">
-                We provide cloud, sdk <br />and on-premise translation <br />
-                solutions. All your private data <br />stays with you.
+              <img src="./images/triangle.png" alt="triangle" />
+              <h3>Book trips & tickets easily</h3>
+              <p>
+                We provide cloud, sdk and on-premise translation solutions. All
+                your private data stays with you.
               </p>
             </div>
             <div class="benefit__card">
-              <img src="/images/triangle.png" alt="triangle" />
-              <h3 class="benefit__card-title">
-                Book trips & <br />tickets easily
-              </h3>
-              <p class="benefit__card-description">
-                We provide cloud, sdk <br />and on-premise translation <br />
-                solutions. All your private data <br />stays with you.
+              <img src="./images/triangle.png" alt="triangle" />
+              <h3>Book trips & tickets easily</h3>
+              <p>
+                We provide cloud, sdk and on-premise translation solutions. All
+                your private data stays with you.
               </p>
-            </div>
-            <div class="benefit__button">
-              <button class="primary big-button big-text-button">
-                Request a free trial
-              </button>
             </div>
           </div>
+          <div class="benefit__cards__button">
+            <button class="primary big-button big-text-button">
+              Request a free trial
+            </button>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer>
-      <div class="footer__section">
-        <h1 class="footer__title">PRODUCTS</h1>
-        <ul class="footer__list">
-          <li class="footer__item">Translation Server</li>
-          <li class="footer__item">Cloud API</li>
-          <li class="footer__item">Mobile SDK</li>
-          <li class="footer__item">Data Studio</li>
-        </ul>
-        <h1 class="footer__title">
-          WE ARE CLOSED <span class="dot">·</span> 6:16 PM <span>(GMT+3)</span>
-        </h1>
-        <p class="footer__item">
-          Business Hours:<br />
-          <span class="business-hours">
-            Monday — Friday<br />
-            9 AM — 5 PM
-          </span>
-        </p>
-        <div class="language-info">
-          <img src="/images/planet.png" alt="planet" />
-          <p class="language-name">English</p>
+      <section class="page-indent">
+        <div class="footer__links">
+          <h4>PRODUCTS</h4>
+          <ul>
+            <li>Translation Server</li>
+            <li>Cloud API</li>
+            <li>Mobile SDK</li>
+            <li>Data Studio</li>
+          </ul>
+          <h4>
+            WE ARE CLOSED <span class="dot">·</span> 6:16 PM
+            <span>(GMT+3)</span>
+          </h4>
+          <p>
+            Business Hours:<br />
+            <span>
+              Monday — Friday<br />
+              9 AM — 5 PM
+            </span>
+          </p>
+          <div class="language-info desktop">
+            <img src="./images/planet.png" alt="planet" />
+            <p class="language-name">English</p>
+          </div>
+          <div class="social-media-icons desktop">
+            <img src="./images/facebook.png" alt="facebook" />
+            <img src="./images/twitter.png" alt="twitter" />
+            <img src="./images/instagram.png" alt="instagram" />
+            <img src="./images/linkedin.png" alt="linkedin" />
+          </div>
         </div>
-        <div class="social-media-icons">
-          <img src="/images/facebook.png" alt="facebook" />
-          <img src="/images/twitter.png" alt="twitter" />
-          <img src="/images/instagram.png" alt="instagram" />
-          <img src="/images/linkedin.png" alt="linkedin" />
+        <div class="footer__links">
+          <h4>APPLICATIONS</h4>
+          <ul>
+            <li>Translator for iOS</li>
+            <li>Translator for Android</li>
+            <li>Translator for MacOS</li>
+            <li>Translator for Windows</li>
+            <li>Translator for Chrome</li>
+            <li>Translator for Facebook</li>
+            <li>Translator for Slack</li>
+            <li>Translator for Telegram</li>
+          </ul>
         </div>
-      </div>
-      <div class="footer__section">
-        <h1 class="footer__title">APPLICATIONS</h1>
-        <ul class="footer__list">
-          <li class="footer__item">Translator for iOS</li>
-          <li class="footer__item">Translator for Android</li>
-          <li class="footer__item">Translator for MacOS</li>
-          <li class="footer__item">Translator for Windows</li>
-          <li class="footer__item">Translator for Chrome</li>
-          <li class="footer__item">Translator for Facebook</li>
-          <li class="footer__item">Translator for Slack</li>
-          <li class="footer__item">Translator for Telegram</li>
-        </ul>
-      </div>
-      <div class="footer__section">
-        <h1 class="footer__title">LEGAL</h1>
-        <ul class="footer__list">
-          <li class="footer__item">Terms of Service</li>
-          <li class="footer__item">Terms of Use of Api Translation</li>
-          <li class="footer__item">Privacy Policy</li>
-          <li class="footer__item">Cookies Policy</li>
-          <li class="footer__item">Impressum</li>
-        </ul>
-      </div>
-      <div class="footer__section">
-        <h1 class="footer__title">COMPANY</h1>
-        <ul class="footer__list">
-          <li class="footer__item">Contact Sales</li>
-          <li class="footer__item">About Lingvanex</li>
-          <li class="footer__item">Press Kit</li>
-          <li class="footer__item">Contacts</li>
-          <li class="footer__item">Partners</li>
-          <li class="footer__item">Supported Languages</li>
-          <li class="footer__item">Jobs</li>
-          <li class="footer__item">Support</li>
-        </ul>
-      </div>
+        <div class="footer__links">
+          <h4>LEGAL</h4>
+          <ul class="footer__list">
+            <li>Terms of Service</li>
+            <li>Terms of Use of Api Translation</li>
+            <li>Privacy Policy</li>
+            <li>Cookies Policy</li>
+            <li>Impressum</li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>COMPANY</h4>
+          <ul class="footer__list">
+            <li>Contact Sales</li>
+            <li>About Lingvanex</li>
+            <li>Press Kit</li>
+            <li>Contacts</li>
+            <li>Partners</li>
+            <li>Supported Languages</li>
+            <li>Jobs</li>
+            <li>Support</li>
+          </ul>
+        </div>
+        <div class="social-links mobile">
+          <div class="language-info">
+            <img src="./images/planet.png" alt="planet" />
+            <p class="language-name">English</p>
+          </div>
+          <div class="social-media-icons">
+            <img src="./images/facebook.png" alt="facebook" />
+            <img src="./images/twitter.png" alt="twitter" />
+            <img src="./images/instagram.png" alt="instagram" />
+            <img src="./images/linkedin.png" alt="linkedin" />
+          </div>
+        </div>
+      </section>
     </footer>
     <script src="./js/hamburger.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/product-for.js"></script>
   </body>
 </html>

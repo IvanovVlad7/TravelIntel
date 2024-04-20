@@ -1,5 +1,5 @@
 let slideIndex = 0;
-const slidesToShow = 3; // Number of fully visible slides
+const slidesToShow = 3;
 
 function moveSlider(n) {
   if (slideIndex < 2) {

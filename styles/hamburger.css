@@ -9,7 +9,7 @@
     transition: 0.5s;
     padding-top: 120px;
     padding-left: 60px;
-    display: block;
+    display: block !important;
 }
 
 #sidebar li {

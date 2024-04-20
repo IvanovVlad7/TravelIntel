@@ -1,18 +1,25 @@
-.product-for__card {
-    width: 1137px;
-    height: 422px;      
+.product-for__info {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-for__card { 
     border-radius: 32px;  
     border: 2px solid rgba(0, 0, 0, 0.04);
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
     display: flex;
-    justify-content: space-around;
-    align-items: center; 
+    align-items: flex-start; 
+    max-width: 85vw;
 }
 
-.product-for__content{
+
+.product-for__content {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .product-for__content button{
@@ -20,33 +27,43 @@
     justify-content: center;
 }
 
-.product-for__card img {
-    width: 507px;
-    height: 338px;
+.product-for__image img {
     border-radius: 32px;
+    max-width: 90%;
+    margin: 30px;
 }
 
-.product-for__card-title {
+.product-for__text-content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 30px 0 30px 30px;
+}
+
+.product-for__text-content h3 {
     font-family: Inter;
     font-size: 60px;
     font-weight: 900;
     line-height: 60px;
     letter-spacing: -0.05em;
     text-align: left;
-    color: rgba(0, 0, 0, 1);
-}   
-.product-for__card-list {
+    color: var(--h-primary-color);
+    margin: 0 20px 0 20px;
+}
+
+.product-for__text-content ul {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 25.2px;
     letter-spacing: -0.01em;
     text-align: left;
-    color: rgba(42, 43, 47, 0.9);
+    color: var(--h-secondary-color);
+    max-width: 500px;
 }
 
-
-.product-for__title {
+.product-for__info h2 {
     font-family: Inter;
     font-size: 60px;
     font-weight: 900;
@@ -54,9 +71,10 @@
     letter-spacing: -0.05em;
     text-align: center;
     color: rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
 }
 
-.product-for__description {
+.product-for__info p {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -64,12 +82,26 @@
     letter-spacing: -0.01em;
     text-align: center;
     color: rgba(42, 43, 47, 0.8);
-    
+    width: 70vw;
 }
 
-
-.product-for__button {
+.product-for__button, .product-for__button-submit {
     display: flex;
     justify-content: center;
     align-items: center ;
+    margin: 60px 0 40px 0;
+    gap: 10px;
 }
+
+.product-for__button-submit {
+    margin: 60px 0;
+}
+
+#organization-content-mobile, #employees-content-mobile, .employee-info, .product-for__content.mobile {
+    display: none;
+}
+
+.footer__links ul li, .language-info, .social-media-icons img {
+    cursor: pointer;
+}
+
