@@ -40,3 +40,10 @@
   .benefit__card {
       width: calc(33.33% - 20px); 
   }
+
+  .benefit__button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+  }
